@@ -20,5 +20,13 @@
         <img src="image.png"/>
         <p class="smoll"><b><i>This is a picture of me.</i></b></p>
     </div>
+
+    <footer aria-label="Site footer" style="text-align:center;padding:1rem 0;">
+    &copy; <span id="year"></span> Heinrich Xiao
+    </footer>
+
+    <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
